@@ -4,10 +4,37 @@
     box-sizing: border-box;
 }
 
-.column {
+body {
+    background-color: black;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.column-info--container {
     float: left;
     width: 50%;
+    text-align: center;
 }
+
+.column-info--container h2 {
+    color: #ffffff;
+    font-size: 2.4rem;
+}
+
+.column--button {
+    width: 271px;
+    height: 60px;
+     padding: 15px 10px; 
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    background-color: #1572A1;
+    border-radius: 32px;
+  
+}
+
 
 .row:after {
     content: "";
@@ -15,7 +42,7 @@
     clear: both;
   }
 
-  .img-container
+  .column-img--container
   span {
     display: inline-block;
     width: 50%;
