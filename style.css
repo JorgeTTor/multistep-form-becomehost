@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .img-container
+  span {
+    display: inline-block;
+    width: 50%;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/8543014/pexels-photo-8543014.jpeg?cs=srgb&dl=pexels-mikhail-nilov-8543014.jpg&fm=jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ } 
