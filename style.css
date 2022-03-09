@@ -17,7 +17,8 @@ body {
 }
 
 .logo {
-    width: 25px;
+    width: 30px;
+    height: auto;
     position: absolute;
     text-align: center;
     top: auto; 
@@ -74,3 +75,21 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
  } 
+
+ .info--host {
+    position: absolute;
+    color:#fff;
+    bottom:0;
+    left: 0;
+    line-height: 70px;
+    line-height: 100%;
+    text-align: right;
+ } 
+
+ .info--host .host-name {
+    font-size: 48px;
+ }
+
+.info--host .host-description {
+
+ }
