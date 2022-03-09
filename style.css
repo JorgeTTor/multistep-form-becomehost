@@ -12,27 +12,48 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.section-column {
+    display: grid;
+}
+
+.logo {
+    width: 25px;
+    position: absolute;
+    text-align: center;
+    top: auto; 
+    color: hsl(200, 77%, 36%);
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    margin: 2% 0 0 2%;
+}
+
 .column-info--container {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
     float: left;
     width: 50%;
     text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-00%, -80%);
 }
 
 .column-info--container h2 {
     color: #ffffff;
     font-size: 2.4rem;
+    padding: 10px 20px 20px 10px;
 }
 
 .column--button {
     width: 271px;
     height: 60px;
-     padding: 15px 10px; 
+    padding: 15px 10px; 
     text-decoration: none;
     color: #fff;
     text-align: center;
-    background-color: #1572A1;
+    background-color: hsl(200, 77%, 36%);
     border-radius: 32px;
-  
 }
 
 
@@ -44,7 +65,8 @@ body {
 
   .column-img--container
   span {
-    display: inline-block;
+    display: block;
+    float: right;
     width: 50%;
     height: 100vh;
     background-image: url('https://images.pexels.com/photos/8543014/pexels-photo-8543014.jpeg?cs=srgb&dl=pexels-mikhail-nilov-8543014.jpg&fm=jpg');
