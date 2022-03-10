@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 80%;
+    height: 90%;
+    background-color: white; 
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1em 1fr;
+    grid-row: 4;
+}
+
+.host--acommodation {
+    background: rgb(217,214,245);
+    background: linear-gradient(200deg, rgba(217,214,245,1) 37%, rgba(245,214,229,1) 76%, rgba(255,198,155,1) 99%);
+}
+
+/* .host-acomm {
+    test
+} */
+
