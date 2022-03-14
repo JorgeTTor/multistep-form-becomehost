@@ -6,8 +6,8 @@
 
 
 body {
-    width: 90%;
-    height: 90%;
+    /* width: 90%; */
+    /* height: 90%; */
     background-color: white; 
     font-family: 'DM Sans', sans-serif;
     font-family: 'Inter', sans-serif;
@@ -17,9 +17,9 @@ body {
 }
 
 .container {
-    max-width: 1170px;
+    /* max-width: 1170px; */
     display: grid;
-    grid-template-columns: 1fr 1em 1fr;
+    grid-template-columns: 1fr 1fr;
     width: 100vw;
     height: 100vh;
 }
@@ -35,13 +35,17 @@ body {
     text-align: center;
     font-size: 2rem;
     color: #fff ;
-    justify-self: center;
+    /* justify-self: center; */
 }
 
 /* .host-acomm {
     test
 } */
 form {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 form input {
@@ -51,6 +55,6 @@ form input {
     border-radius: 25px;
     /* box-sizing: border-box; */
     border: 1px solid #9B9B9B;
-    justify-items: center;
+    /* justify-items: center; */
 }
 
