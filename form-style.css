@@ -44,21 +44,34 @@ form {
     justify-content: center;
     align-items: center;
 }
+fieldset{
+    border: none;
+}
 
-form button {
+form .btn {
+    position:relative;
+    margin-bottom: 20px;
     width: 400px;
-    height: 80px;
+    height: 100px;
     background-color: #fff;
     border-radius: 25px;
     /* box-sizing: border-box; */
     border: 1px solid #9B9B9B;
-    justify-items:center;
+    text-align: left;
 }
 
-form button img {
+.btn .hosting-image {
+    display: inline-block;
+    vertical-align: middle;
     width: 75px;
-    height: auto;
-    border-radius: 15px;
-    margin: 0 auto;
+    height: 75px;
+    padding: 5px;
+    margin-left: .5rem;
     object-fit: cover;
+    border-radius: 15px;
+}
+
+.btn span {
+    display:inline-block;
+    font-size: 1.5rem;   
 }
