@@ -1,0 +1,81 @@
+body {
+    /* width: 90%; */
+    /* height: 90%; */
+    background-color: white; 
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    text-align:center;
+    font-size: 2rem;
+    color: #fff;
+    justify-self:center;
+}
+
+.host--services {
+    display: inline-grid;
+    background: rgb(243,223,253);
+    background: linear-gradient(163deg, rgba(243,223,253,1) 0%, rgba(167,194,244,1) 100%);
+
+}
+
+.host--services h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
+
+form {
+    display:grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    border: none;
+}
+
+form .btn {
+    position: relative;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 1px solid #9B9B9B;
+    text-align:left;
+    transition: 500ms;
+}
+
+/* form btn hover */
+form .btn:hover{
+    cursor: pointer;
+    background-color: #f1f1f1;
+    transition: 500ms;
+}
+
+.btn .services-img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 82px;
+    padding: 5px;
+    margin-left: .5rem;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.btn span {
+    display: inline-block;
+    font-size: 1.3rem;
+    margin-left: .5rem;
+}
+
