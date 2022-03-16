@@ -105,8 +105,6 @@ form .btn:hover {
 .back-button {
     background-color: transparent;
     text-decoration: underline;
-    
-    
 }
 
 .next-button {
@@ -127,5 +125,5 @@ form .btn:hover {
 
 .next-button:hover {
     background-color: hsl(200, 77%, 25%);
-    
+ 
 }
