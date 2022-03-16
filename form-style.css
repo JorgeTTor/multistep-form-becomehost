@@ -73,5 +73,6 @@ form .btn {
 
 .btn span {
     display:inline-block;
-    font-size: 1.5rem;   
+    font-size: 1.3rem;
+    margin-left: .5rem;
 }
