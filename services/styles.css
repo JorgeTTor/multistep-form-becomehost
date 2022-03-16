@@ -79,3 +79,43 @@ form .btn:hover{
     margin-left: .5rem;
 }
 
+.control-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+ }
+ 
+ .back-button, .next-button {
+     display:inline-block;
+     width: 6rem;
+     height: 3rem;
+     text-align:center;
+     border:none;
+     padding: 5px 10px;
+     transition: 500ms;
+ }
+ 
+ .back-button {
+     background-color: transparent;
+     text-decoration: underline;
+ }
+ 
+ .next-button {
+     background-color: hsl(200, 77%, 36%);
+     border-radius: 32px;
+     text-decoration: none;
+     color: #fff;
+ }
+ 
+ .back-button:hover, .next-button:hover {
+     cursor: pointer;
+     transition: 500ms;
+ }
+ 
+ .back-button {
+     color: #9B9B9A;
+ }
+ 
+ .next-button:hover {
+     background-color: hsl(200, 77%, 25%);
+ }
