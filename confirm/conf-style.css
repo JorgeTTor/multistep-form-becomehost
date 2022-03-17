@@ -1,0 +1,66 @@
+body {
+    width: 100vh;
+    height: 100vh;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.logo {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    top: auto; 
+    color: hsl(200, 77%, 36%);
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    margin: 2% 0 0 2%;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    width: 100vw;
+    height: 100vh;
+    color: #fff ;
+} 
+
+.host--confirm {
+    display: inline;
+    vertical-align: middle;
+    background: rgb(215,221,255);
+    background: linear-gradient(32deg, rgba(215,221,255,1) 1%, rgba(215,240,255,1) 22%, rgba(215,255,225,1) 38%, rgba(255,251,205,1) 56%, rgba(255,235,252,1) 71%);
+
+}
+
+.host--confirm h1,
+p {
+    margin:0;
+    padding:0;
+    text-align: center;
+    color: #1572a1;
+}
+
+.host--confirm h1 {
+    font-size: 2rem;
+}
+
+p {
+    display: flex-inline;
+    font-size: 1.5rem;
+}
+
+
+.column-img--container span {
+  display: block;
+  float: right;
+  width:100%;
+  height: 100vh;
+  background-image: url('https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?cs=srgb&dl=pexels-guilherme-almeida-1858175.jpg&fm=jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
