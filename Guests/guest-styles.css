@@ -8,15 +8,23 @@ body {
     font-family: 'Poppins', sans-serif;
     
 }
+
+a {
+    display: inline-flex;
+    align-items: left;
+}
+
 .logo {
-    width: 30px;
+    width: 40px;
     height: auto;
     position: absolute;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
+    font-size: 1.5rem;
+    top: auto;
     color: hsl(200, 77%, 36%);
     background-color: #fff;
-    font-weight: 600;
+    font-weight: 400;
     border-radius: 50%;
     margin: 2% 0 0 2%;
 }
