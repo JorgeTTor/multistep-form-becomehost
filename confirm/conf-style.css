@@ -28,31 +28,67 @@ body {
     color: #fff ;
 } 
 
-.host--confirm {
-    display: inline;
-    vertical-align: middle;
+.host-confirm--info {
     background: rgb(215,221,255);
     background: linear-gradient(32deg, rgba(215,221,255,1) 1%, rgba(215,240,255,1) 22%, rgba(215,255,225,1) 38%, rgba(255,251,205,1) 56%, rgba(255,235,252,1) 71%);
-
+    /* position:relative;*/
+    text-align: center; 
+    display: flex;
 }
 
-.host--confirm h1,
+.host-confirm {
+    /* position:relative;
+    position: absolute;
+     top: 50%;
+    transform: translateY(-50%); */
+    margin: auto;
+}
+
+.host-confirm h1,
 p {
-    margin:0;
-    padding:0;
     text-align: center;
     color: #1572a1;
 }
 
-.host--confirm h1 {
-    font-size: 2rem;
+.host-confirm h1 {
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
 }
 
 p {
     display: flex-inline;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 1rem 3rem;
 }
 
+.info-button {
+    margin: 0 auto;
+}
+
+
+.explore-button {
+    width: 15rem;
+    height: 3rem;
+    background-color: hsl(200, 77%, 36%);
+    border-radius: 32px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1rem;
+    border: none;
+    color: #fff;
+}
+
+.explore-button:hover {
+    cursor: pointer;
+    transition: 500ms;
+}
+.explore-button:hover {
+    background-color: hsl(200, 77%, 25%);
+}
+
+
+/*Image*/
 
 .column-img--container span {
   display: block;
@@ -64,3 +100,4 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
 } 
+
