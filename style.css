@@ -20,7 +20,7 @@ body {
     width: 30px;
     height: auto;
     position: absolute;
-    text-align: center;
+    text-align: left;
     top: auto; 
     color: hsl(200, 77%, 36%);
     background-color: #fff;

@@ -17,9 +17,27 @@ body {
     width: 100vw;
     height: 100vh;
     text-align: center;
-    font-size: 2rem;
     color: #fff ;
     justify-self: center;
+}
+
+a {
+    display: inline-flex;
+    align-items: left;
+}
+
+a .logo {
+    width: 40px;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    font-size: 1.5rem;
+    top: auto; 
+    color: hsl(200, 77%, 36%);
+    background-color: #fff;
+    font-weight: 400;
+    border-radius: 50%;
+    margin: 2% 0 0 2%;
 }
 
  .host--acommodation {
