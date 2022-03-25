@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Lato:wght@300&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="form-style.css">
+    <link rel="stylesheet" href="/form-style.css">
     <title>Accomodation</title>
 </head>
 <body>
@@ -18,21 +18,40 @@
                 <h2>¿Qué tipo de alojamiento vas a compartir?</h2>
             </aside>
          <form  action="">
-            <label for="hostHouse" class="host-home"></label>
-            <input id="hostHouse" type="submit" value="Casa">
+            <fieldset>
+             <div class="acommodation">
+                <label for="hostHouse" class="host-home"></label>
+                <button id="hostHouse" type="submit" class="btn host-home">
+                    <img class="hosting-image" src="https://images.pexels.com/photos/4061977/pexels-photo-4061977.jpeg?cs=srgb&dl=pexels-erik-mclean-4061977.jpg&fm=jpg" alt="home front view and car"/><span>Casa</span>
+                </button>
+            </div>
+           
+             <div class="acommodation">
+                <button id="hostApartment" type="submit" class="btn host-apartment">
+                    <label for="hostApartment" class="host-aparment"></label>
+                    <img  class="hosting-image" src="https://images.pexels.com/photos/259239/pexels-photo-259239.jpeg?cs=srgb&dl=pexels-pixabay-259239.jpg&fm=jpg"/><span>Apartamento</span>
+                </button>
+            </div>
 
-            <label for="hostApartment" class="host-apartment"></label>
-            <input id="hostApartment" type="submit" value="Apartamento">
-
-            <label for="hostEstate" class="host-estate"></label>
-            <input id="hostEstate" type="submit" value="Finca">
-
-            <label for="hostHotel" class="host-hotel"></label>
-            <input id="hostHotel" type="submit" value="Hotel">
-            
-
-            <!-- more inputs -->
-        </form>
+                <div class="acommodation">
+                    <button id="hostEstate" type="submit" class="btn host-estate">
+                        <label for="hostEstate" class="host-estate"></label>
+                        <img class="hosting-image"  src="https://images.pexels.com/photos/979190/pexels-photo-979190.jpeg?cs=srgb&dl=pexels-connie-mulloy-979190.jpg&fm=jpg" alt="Countryside home with snow"/><span>Finca</span>
+                    </button>
+                </div>
+        
+                <!-- con button-->
+                <div class="acommodation">
+                    <button id="hostHotel" type="submit" class="btn host-hotel">
+                        <label for="hostHotel" class="host-hotel"></label>
+                        <img class="hosting-image"  src="https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?cs=srgb&dl=pexels-donald-tong-189296.jpg&fm=jpg" alt="Hotel Chairs by pool"/><span>Hotel</span>
+                    </button>
+                </div>
+        </fieldset>
+        <div class="control-container">
+            <button class="back-button">Atrás</button>
+        <button class="next-button">Siguiente</button>
+        </div>
      </section>
     </main>
 </body>
