@@ -1,2 +1,2 @@
-# places host wizardform 
-Repo for creating the wizard form 
+# places host wizardform Issue #19
+Repository for creating the wizard multistep form to allow a user to become a host 
